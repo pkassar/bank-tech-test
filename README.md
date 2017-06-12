@@ -10,7 +10,6 @@
 this tech test was solved using ruby 2.3.3p222
 
 # User-stories include:
-
 As a user
 so that I can be responsible
 I need to deposit my cash safely into an account
@@ -28,5 +27,5 @@ so that I can remember the damage I did to my finances
 I want to be able to print a full statement of my account
 
 As a user
-so that my cash statements aren't slapdash
-I want to see my statement in reverse chronological
+so that my cash statements are readable
+I want to see my statement in reverse chronological order
