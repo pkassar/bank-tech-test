@@ -10,4 +10,13 @@ class Account
     @balance += amount
   end
 
+  def debit(amount)
+    sufficient(amount)
+    @balance -= amount
+  end
+
+  def sufficient(amount)
+  raise "Insufficient funds" if amount > @balance
+  end
+
 end
