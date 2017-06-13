@@ -21,8 +21,9 @@ class Account
     @log << Transaction.new(amount, self.balance).activity
   end
 
-  def print_statement
-    Statement.new.display(self.log)
+  def print_statement(last_x_transactions)
+    Statement.new.header
+    Statement.new.display(self.log.reverse,last_x_transactions)
   end
 
 private
@@ -31,5 +32,5 @@ private
     raise "Insufficient funds" if amount > @balance
   end
 
-
+# @log.unshift(Transaction.new(amount, self.balance).activity
 end
