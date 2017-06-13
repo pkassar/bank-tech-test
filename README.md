@@ -10,7 +10,8 @@
 this tech test was solved using ruby 2.3.3p222
 
 ## User-stories include:
-```As a user
+```
+As a user
 so that I can be responsible
 I need to deposit my cash safely into an account
 ```
@@ -18,6 +19,7 @@ I need to deposit my cash safely into an account
 As a user
 so that I can use my hard earned cash
 I need to withdraw my cash from my account
+```
 ```
 As a user
 so that I can have an idea of how much money I have
