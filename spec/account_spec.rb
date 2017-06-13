@@ -12,6 +12,12 @@ describe Account do
     end
   end
 
+  # describe "#log" do
+  #   it "Should be empty initially" do
+  #     expect(account.log).to be_empty
+  #   end
+  # end
+
   describe "#credit" do
     it "Credits the account with £55 making the balance £55" do
       account.credit(55)
