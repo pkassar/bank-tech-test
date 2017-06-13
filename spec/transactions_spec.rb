@@ -18,5 +18,9 @@ describe Transaction do
     end
   end
 
+  it 'records the amount credited' do
+      expect(credit.activity[:credit]).to eq 100
+    end
+
 
 end
