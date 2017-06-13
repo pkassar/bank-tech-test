@@ -1,8 +1,11 @@
 require 'account'
 
-describe Account do
-  subject(:account) { described_class.new }
 
+describe Account do
+
+  #remember the before [...] do syntax
+
+  subject(:account) { described_class.new }
   describe '#balance' do
     it "Has an initialised balance of £0 (zero)" do
       expect(account.balance).to eq 0
