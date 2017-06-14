@@ -41,3 +41,14 @@ date || credit || debit || balance
 13/01/2012 || 2000.00 || || 3000.00
 10/01/2012 || 1000.00 || || 1000.00
 ```
+
+##To try the features of this code:
+```load './lib/account.rb'
+acc = Account.new
+acc.credit(200)
+acc.debit(5)
+acc.debit(2)
+acc.debit(1)
+acc.debit(12)```
+## and finally look at the two last transactions with your current balance on account
+```acc.print_statement(2)```
