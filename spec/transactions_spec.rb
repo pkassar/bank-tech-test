@@ -12,8 +12,8 @@ describe Transaction do
   subject(:credit) { described_class.new(amount, new_balance) }
   subject(:debit) { described_class.new(-amount, new_balance) }
 
-  context "A credit of £55" do
-    it "Logs a transaction at the date it happened" do
+  context 'A credit of £55' do
+    it 'Logs a transaction at the date it happened' do
       expect(credit.activity[:date]).to eq @date
     end
 
@@ -29,5 +29,4 @@ describe Transaction do
       expect(credit.activity[:balance]).to eq 105
     end
   end
-
 end
