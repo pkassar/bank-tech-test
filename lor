@@ -1,0 +1,24 @@
+
+Account
+  #balance
+[32m    Has an initialised balance of £0 (zero)[0m
+  #credit
+[32m    Credits the account with £55 making the balance £55[0m
+  #debit
+[32m    Debits the account with £600 making the balance £900[0m
+[32m    Raises an error if you try to withdraw more money than available balance[0m
+
+Statement
+[32m  displays 2 last entries from the log of 3 transactions of the specified account[0m
+[32m  displays a formatted header[0m
+
+Transaction
+  A credit of £55
+[32m    Logs a transaction at the date it happened[0m
+[32m    records the amount credited[0m
+[32m    records the amount debited[0m
+[32m    records the new balance[0m
+
+Finished in 0.01091 seconds (files took 0.38504 seconds to load)
+[32m10 examples, 0 failures[0m
+

@@ -2,7 +2,6 @@ require_relative 'transactions.rb'
 require_relative 'statement.rb'
 
 class Account
-
   attr_reader :balance, :log
 
   def initialize
@@ -31,6 +30,4 @@ private
   def sufficient(amount)
     raise "Insufficient funds" if amount > @balance
   end
-
-# @log.unshift(Transaction.new(amount, self.balance).activity
 end
