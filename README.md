@@ -4,6 +4,7 @@
 + Account statement (date, amount, balance) printing.
 + Data can be kept in memory (it doesn't need to be stored to a database or anything).
 
+
 # Note
 this tech test was solved using ruby 2.3.3p222
 
@@ -39,6 +40,7 @@ date || credit || debit || balance
 13/01/2012 || 2000.00 || || 3000.00
 10/01/2012 || 1000.00 || || 1000.00
 ```
+
 
 ##To try the features of this code:
 ```load './lib/account.rb'
