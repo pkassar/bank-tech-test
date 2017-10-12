@@ -4,8 +4,6 @@
 + Account statement (date, amount, balance) printing.
 + Data can be kept in memory (it doesn't need to be stored to a database or anything).
 
-
-
 # Note
 this tech test was solved using ruby 2.3.3p222
 
